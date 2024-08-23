@@ -1,0 +1,27 @@
+#ifndef ADUIO_H
+#define ADUIO_H
+#include <QTimer>
+#include <QObject>
+#include <QTcpSocket>
+#include <QFile>
+class Aduio : public QObject
+{
+    Q_OBJECT
+public:
+    explicit Aduio(QObject *parent = nullptr);
+    ~Aduio();
+    void play(QString str);
+
+signals:
+private slots:
+    void timer_connect();
+    void stop_connect();
+    void start_connect();
+private:
+    //创建网络套接字，定时器
+    QTcpSocket msocket;
+    QTimer* mtimer;
+    QString str;
+};
+
+#endif // ADUIO_H

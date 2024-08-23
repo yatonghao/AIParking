@@ -1,0 +1,15 @@
+============================================================
+Time  2024/08/22 20:41:31 390 
+============================================================
+[2024/08/22 20:41:31 390] tts        811  SYS_MSG_REGCB param0 =  msp_status_cb  param1 =  func(c742f070) 
+[2024/08/22 20:41:31 390] config     43   use general cloud  
+[2024/08/22 20:41:31 392] tts_cloud  1438 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(c742f070) 
+[2024/08/22 20:41:31 392] tts        782  TTS_MSG_SSB  
+[2024/08/22 20:41:31 392] tts        434  params =  engine_type = local,voice_name=xiaoyan, text_encoding = UTF8, tts_res_path = fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2  
+[2024/08/22 20:41:31 392] tts        273  auf=audio/L16;rate=16000  
+[2024/08/22 20:41:31 392] tts        273  auf=audio/L16;rate=16000  
+[2024/08/22 20:41:31 392] tts        471  ssb|use local  
+[2024/08/22 20:41:31 392] tts        385  local_session_begin  
+[2024/08/22 20:41:31 393] tts        795  TTS_MSG_SSE  
+[2024/08/22 20:41:31 393] tts        693  sse|use local  
+[2024/08/22 20:41:31 393] tts        711  tts exit  

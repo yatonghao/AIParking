@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pic/login_menu.png</file>
+        <file>pic/login.png</file>
+        <file>pic/exit.png</file>
+        <file>pic/menu.png</file>
+        <file>pic/car.png</file>
+        <file>pic/card.png</file>
+        <file>pic/info.png</file>
+        <file>pic/price.png</file>
+        <file>pic/off.png</file>
+        <file>pic/on.png</file>
+        <file>pic/add.png</file>
+        <file>pic/debug.png</file>
+        <file>pic/video.png</file>
+    </qresource>
+</RCC>
